@@ -25,13 +25,11 @@ $(document).ready(function(){
             
             if(($("#rut").val().trim().length==9 || $("#rut").val().trim().length==10)&&  $("#rut").val().trim().includes("-")){
 
-            
                 $("#alertaRut").hide()
             }
             
             else{
                 $("#alertaRut").show()
-
             }
     })
 
@@ -51,7 +49,7 @@ $(document).ready(function(){
     })
  
     
-
+        /** hola mundo */
    
 
    
