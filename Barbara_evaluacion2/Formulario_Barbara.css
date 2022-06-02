@@ -32,9 +32,10 @@ html{
 
 
 .tituloformulario{
-    font-size: 50px;
+    font-size: 75px;
     font-weight: bold;
     color:black;
+    font-family: 'Libre Baskerville', serif;
 
 }
 .fondcontainer {
@@ -45,9 +46,7 @@ html{
 
 }
 
-/**.tituloFormulario{
-    text-align: left;
-}**/
+
 .bloquecentral{
     background-color: white;
     text-align: center;
@@ -64,3 +63,61 @@ html{
     text-align:left;
 
 }
+
+.footer1{
+    background-color: rgba(161, 31, 173, 0.421);
+    
+    color: #0c22e7;
+    padding: 30px 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+  
+}
+
+.footer-section{
+    padding: 10px;
+   
+}
+
+.footer-title{
+    border-bottom: 1px dotted #EDF2EB; /* en vez de una linea plana coloca una linea con puntos */
+    padding-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+
+}
+.footer-txt{
+    font-size: 18px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+    
+}
+
+
+.footer-link{
+    color: #e5e8eef2;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer-link:hover{
+    color: white;
+}
+
+.footer-map{
+    text-align: center;
+}
+
+.copy{
+    color: #555;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+

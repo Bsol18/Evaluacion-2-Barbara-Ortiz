@@ -48,7 +48,7 @@ html{
     color:blueviolet;
     font-size: 100px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Libre Baskerville', serif;
     
 }
 
@@ -73,6 +73,7 @@ html{
 
 .footer1{
     background-color: rgba(161, 31, 173, 0.421);
+    
     color: #0c22e7;
     padding: 30px 20px;
     display: grid;
@@ -89,11 +90,16 @@ html{
 .footer-title{
     border-bottom: 1px dotted #EDF2EB; /* en vez de una linea plana coloca una linea con puntos */
     padding-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
 
 }
 .footer-txt{
     font-size: 18px;
-    color: black
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    
+
     
 }
 
@@ -102,7 +108,8 @@ html{
     color: #e5e8eef2;
     text-decoration: none;
     padding: 10px;
-    font-size: 18px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
 }
 
 .footer-link:hover{
@@ -116,7 +123,8 @@ html{
 .copy{
     color: #555;
     text-align: center;
-}
+    font-family: 'Times New Roman', Times, serif;
 
+}
 
 
